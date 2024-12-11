@@ -13,5 +13,15 @@ public class Main {
          m.run();
          Coc coc = new Coc();
          coc.run();
+
+         int a=10;
+         int b=0;
+
+         try{
+             int d=a/b;
+         }catch (ArithmeticException e){
+             System.out.println("Exception catched");
+         }
+        System.out.println("code is running");
     }
 }
